@@ -31,26 +31,117 @@ h1{
 .second-name{
     color:rgb(194, 93, 20);
 }
-.half-width{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding: 2%;
+h2{
+    font-size: 50px;
 }
-.half-width a{
+p{
+    color: dimgray;
+
+}
+
+.half-width
+{
+    width: 40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin: 1%;
+
+}
+.half-width img {
+    width: 80%;
+   
+}
+.top-banner
+{
+    
+    
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button
+{
     text-decoration: none;
-    background-image: linear-gradient(360deg,salmon,tomato);
-    padding: 10px 20px;
+    background-image: linear-gradient(360deg,lightsalmon,tomato);
+    padding:10px 20px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
-    
-}
-.half-width img{
-    width: 80%;
 }
 
-p{
-    font-size: 20px;
+
+.experience-area
+{
+    
+    margin-top: 10%;
+    padding-top: 2%;
+    background-color: blanchedalmond;
 }
-  
+.experience-name{
+    text-align: center;
+}
+.chalak
+{
+    
+    width: 25%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+
+}
+.chalak img {
+    width: 75%;
+}
+#another-web{
+    border-left: 7px solid;
+    border-image:  linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+#full-stack {
+    border-left: 7px solid;
+    border-image:  linear-gradient(45deg,lightsalmon,tomato);
+    border-image-slice: 1;
+
+}
+#baby-web {
+    border-left: 7px solid;
+    border-image:  linear-gradient(360deg,white,black);
+    border-image-slice: 1;
+
+}
+.pera-area{
+    margin-top: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: url(images/bg.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+}
+.pera-area h3 {
+    padding-top: 150px;
+    padding-left: 100px;
+    text-align: left;
+    font-size: x-large;
+}
+
+.pera-area a {
+    text-decoration: none;
+    background-image: linear-gradient(360deg,lightsalmon,tomato);
+    padding:10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-left: 700px;
+    text-align: right;
+    
+}
+
+footer p {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 30px;
+}
